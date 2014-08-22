@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Mueble</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>imagen.jpg</imagen>
+    <archivo>inicio</archivo>
+	<estilos>estilos</estilos>
+	<scrol>flexcroll</scrol>
+  </configuracion>
+</instalacion>

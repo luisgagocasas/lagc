@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+div.paginacion {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	text-align: center;
+	padding: 5px 5px;
+	white-space: nowrap;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:100px;
+}
+.contenido1 {
+	background:#ACD6DD;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.contenido2 {
+	background:#79B714;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.SiteBloqueado {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 20% auto;
+	text-align: center;
+	padding: 5px 5px;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:300px;
+}
+*.* {
+margin:0;
+padding:0;
+}
+img {
+	border:0;
+}
+a {
+	text-align:left;
+	margin:0 auto;
+	font:bold;
+	color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+}
+div {
+	float:left;
+}
+table {
+	align:center;
+}
+a:hover {
+	color:#666;
+}
+#main {
+	width:1000px;
+	float:none;
+	height:auto;
+	margin:20px auto;
+}
+#cabeza {
+	width:1000px;
+}
+#bartitulo {
+	width:1000px;
+	height:122px;
+}
+#contenido {
+	width:1000px;
+	border:2px #CCC solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#titulo {
+	width:611px;
+	height:96px;
+	margin-left:49px;
+	margin-top:25px;
+}
+#icono {
+	background:url(imagenes/boutiquedelMueble_r3_c2_r2_c4.jpg) no-repeat;
+	width:108px;
+	height:96px;
+	margin-top:25px;
+	margin-right:30px;
+}
+#facebook {
+	width:86px;
+	height:96px;
+	margin-top:25px;
+}
+#linea {
+	background:url(imagenes/linea.jpg) repeat-x;
+	width:870px;
+	margin-left:56px;
+	height:11px;
+}
+@font-face {
+	font-family: "fuenteinnova";
+	src: url("Baby Face.ttf");
+}
+#centro {
+	width:940px;
+	height:370px;
+	overflow:auto;
+	padding:20px 20px;
+	margin:20px 0px;
+	position:relative;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#footer {
+	color:#999999;
+	font-size:12px;
+	width:1000px;
+	height:65px;
+}
+#menu {
+	width:1000px;
+	height:50px;
+}
+#menu table {
+	text-align:left;
+	margin:0 auto;
+}
+.scrollgeneric {
+	line-height: 1px;
+	font-size: 1px;
+	position: absolute;
+	top: 0; left: 0;
+}
+.vscrollerbase {
+	width:22px;
+}
+.vscrollerbar {
+	background-image: url(imagenes/scrollbar.png);
+	width: 25px;
+	height: 64px !important;
+	background-image: url(imagenes/scrollbar.png);
+}
+
+* html .vscrollerbar {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='imagenes/scrollbar.png');
+	background-image: none;
+}
+.hscrollerbase {height: 22px;}
+.hscrollerbar {height: 22px; background-color: #84ADD6;}
+.vscrollerbar, .hscrollerbar {
+	padding: 15px;
+	z-index: 2;
+}
+.scrollerjogbox {
+	width: 22px;
+	height: 22px;
+	top: auto; left: auto;
+	bottom: 0px; right: 0px;
+	background: #698AAA;
+}
+input {
+	border:1px #CCC solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+textarea {
+	border:1px #CCC solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}

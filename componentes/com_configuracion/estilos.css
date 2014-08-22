@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.lg-instalador-aviso{
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 5px 1px #999;
+	color:#000;
+	padding: 5px 5px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.lg-instalador-aviso a{
+	text-decoration:none;
+	font-size:12px;
+	font-weight: bold;
+}
+/*menus*/
+.ladoiz{
+	background:#CCC;
+	-webkit-border-radius: 5px;
+}
+.ladoiz ul{
+	width:200px;
+	margin:0px 0px;
+	padding:0px 0px;
+}
+.ladoiz li{
+	list-style:none;
+	padding: 5px 0px;
+	margin: 10px 10px;
+	text-align:left;
+	width:180px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 5px 1px #999;
+}
+.ladoiz li a{
+	color:#000;
+	margin: 2px 3px;
+	color:#000;
+	padding: 5px 0px;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ladoiz li:hover{
+	-webkit-box-shadow: 2px 2px 5px 3px #999;
+	cursor:pointer;
+}
+.menuselec{
+	-webkit-box-shadow: 2px 2px 5px 3px #999;
+}
+/*fin de menus*/
+/*inicio titulos*/
+.titulosup{
+	background:#09C;
+	-webkit-border-radius: 5px;
+}
+.titulosup h2{
+	text-align:center;
+	font-size:24px;
+	font-family:"Comic Sans MS", cursive;
+}
+/*fin de titulos*/
+/*pie de pagina*/
+.piepagina{
+	background:#CCC;
+	-webkit-border-radius: 5px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.piepagina a{
+	color:#960;
+	text-decoration:none;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.lg-instalador-nota{
+	width:300px;
+	height:35px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 5px 1px #999;
+	color:#000;
+	padding: 5px 5px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}

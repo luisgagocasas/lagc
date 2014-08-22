@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+/*No Borrar*/
+div.paginacion {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	text-align: center;
+	padding: 5px 5px;
+	white-space: nowrap;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:100px;
+}
+.contenido1 {
+	background:#ACD6DD;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.contenido2 {
+	background:#79B714;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.SiteBloqueado {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 20% auto;
+	text-align: center;
+	padding: 5px 5px;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:300px;
+}
+/*No Borrar*/
+@font-face {
+	font-family: "fuenteinnova";
+	src: url("imagenes/MTCORSVA.TTF");
+}
+body {
+	background-color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	background:url(imagenes/bg.jpg) no-repeat top;
+}
+td img {
+	display: block;
+}
+h2 {
+	font-family:"fuenteinnova", monospace, Courier;
+	font-size:25px;
+	color:#88C022;
+}
+a:link {
+	color: #F90;
+	font-size:11px;
+	text-decoration:none;
+}
+a:visited {
+	color: #F90;
+	font-size:11px;
+}
+a:hover {
+	color: #F90;
+	font-size:11px;
+}
+a:active {
+	color: #F90;
+	font-size:11px;
+}
+.enlacef a:link {
+	color: #FFF;
+	font-size:11px;
+	text-decoration:none;
+	line-height:18px;
+}
+.enlacef a:visited {
+	color: #FFF;
+	font-size:11px;
+}
+.enlacef a:hover {
+	color: #FFF;
+	font-size:11px;
+}
+.enlacef a:active {
+	color: #FFF;
+	font-size:11px;
+}
+.telefonos {
+	color:#FFF;
+	font-size:12px;
+	line-height:20px;
+	background:url(imagenes/pagina1_r1_c7.jpg) no-repeat;
+	padding:0px 30px;
+}
+#menuh {
+	font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menuh ul, li {
+	list-style-type: none;
+}
+#menuh ul {
+	margin: 0;
+	padding: 0;
+}
+#menuh li {
+	float: left;
+}
+#menuh a {
+	height:12px;
+	width:98px;
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	background: #FFF;
+	display: block;
+	margin:0px 4px;
+	padding: 10px 5px;
+	text-align: center;
+	border: 1px solid #CCC;
+}
+#menuh a#primero {
+	background:#79B714;
+	color:#FFF;
+}
+#menuh a:hover {
+	background:#79B714;
+	color:#FFF;
+	font-size:12px;
+}
+#menuv {
+	border: 1px solid #CCC;
+	width: 160px;
+	font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	z-index:2;
+	position:absolute;
+	margin:5px 5px;
+}
+#menuv ul, li {
+	list-style-type: none;
+	z-index:2;
+}
+#menuv ul {
+	margin: 0;
+	padding: 0;
+}
+#menuv a {
+	text-decoration: none;
+	color: #000;
+	background: #FFF;
+	display: block;
+	padding: 3px 6px;
+	width: 148px;
+	border: 1px solid #CCC;
+}
+#menuv a:hover {
+	background:#79B714;
+	color:#FFF;
+	font-size:13px;
+}
+#menuv a#primero {
+	background:#79B714;
+	color:#FFF;
+}
+.scrollgeneric {
+	line-height: 1px;
+	font-size: 1px;
+	position: absolute;
+	top: 0; left: 0;
+}
+.vscrollerbase {
+	width:22px;
+}
+.vscrollerbar {
+	background-image: url(imagenes/scrollbar.png);
+	width: 25px;
+	height: 64px !important;
+	background-image: url(imagenes/scrollbar.png);
+}
+
+* html .vscrollerbar {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='imagenes/scrollbar.png');
+	background-image: none;
+}
+.hscrollerbase {height: 22px;}
+.hscrollerbar {/*height: 22px; background-color: #84ADD6;*/}
+.vscrollerbar, .hscrollerbar {
+	padding: 15px;
+	z-index: 2;
+}
+.scrollerjogbox {
+	width: 22px;
+	height: 22px;
+	top: auto; left: auto;
+	bottom: 0px; right: 0px;
+	/*background: #698AAA;*/
+}
+#contlagc {
+	background-color:#FFF;
+	font-family:Arial;
+	font-style:italic;
+	font-size:12px;
+	color:#666;
+}
+#contlagc li {
+	list-style:circle;
+}
+#contlagc strong {
+	color:#88C022;
+}
+#fondobanner {
+	background:url(imagenes/fondobanner.gif) no-repeat center;
+}
+#contadores {
+	line-height:0px;
+	font-family:monospace, Courier;
+	color:#090;
+	font-size:12px;
+	font-weight:bold;
+}
+#contadores img {
+	padding:0px 1px;
+}

@@ -1,0 +1,8 @@
+﻿<menu>
+	<item btnid="1" destino="index.php"/>
+	<item btnid="2" destino="index.php?lagc=com_contenidos&id=2&ver=nosotros"/>
+	<item btnid="3" destino="index.php?lagc=com_contenidos&id=3&ver=productos-y-servicios"/>
+	<item btnid="4" destino="index.php?lagc=com_contactenos&id=1&ver=contactenos"/>
+	<item btnid="5" destino="index.php?lagc=com_contenidos&id=1&ver=nuestros-clientes"/>
+	<item btnid="6" destino="index.php?lagc=com_galeria&galeria=1&ver=ricky-klaus"/>
+</menu>

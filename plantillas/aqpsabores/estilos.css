@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+ font-family: "lagc1";
+ src: url("fuente1.TTF");
+}
+body {
+	background: url(imagenes/bg.png) repeat top;
+}
+br{
+	margin:0px;
+}
+.cuerpo{
+	margin:0px auto 0px auto;
+	width:900px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*border:1px #09C solid;*/
+}
+.cabecera-fondo1{
+	margin:0px auto 0px auto;
+	width:900px;
+	height:180px;
+	background:url(imagenes/bg-cabecera.png) no-repeat center;
+	z-index:1;
+}
+.cabecera-fondo2{
+	position:absolute;
+	margin:-10px auto;
+	width:900px;
+	height:210px;
+	background:url(imagenes/bg-cabecera-medio.png) no-repeat center;
+	z-index:2;
+}
+.cabecera-fondo3{
+	position:absolute;
+	margin:-10px auto;
+	width:900px;
+	height:210px;
+	background:url(imagenes/bg-cabecera-superior.png) no-repeat center;
+	z-index:3;
+}
+.logo{
+	position:absolute;
+	width:170px;
+	height:164px;
+	background:url(imagenes/logo.png) no-repeat center;
+	margin:21px 43px;
+}
+.logo:hover{
+	position:absolute;
+	width:170px;
+	height:164px;
+	background:url(imagenes/logo.png) no-repeat center;
+	margin:25px 43px;
+}
+.menu{
+	width:180px;
+	height:150px;
+	margin: 30px auto 0px 240px;
+}
+.enlace{
+	position:relative;
+	font-family:"lagc1", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	display:block;
+	font-size:18px;
+	width:150px;
+	height:25px;
+	background:url(imagenes/fondo_menu.png) repeat-x;
+	text-decoration:none;
+}
+.enlace:hover{
+	color:rgba(0,0,0,0.4);
+	text-shadow:1px 1px 0px rgba(245, 195, 146,3.0);
+}
+/* slider */
+#slider_wrapper {
+	position:absolute;
+	margin: 17px auto 0px 415px;
+	width: 430px;
+	height: 170px;
+}
+
+#slider_wrapper_n { clear: both; width: 430px; padding: 30px; margin-bottom: 15px; background: #000 url(imagenes/slider_bottom.png) no-repeat bottom } 
+#slider_wrapper_n h2 {
+	color: #fff;
+	background:#A90305;
+}
+#slider_wrapper_n p { font-size: 16px }
+
+#slider { 
+	width: 430px;
+	height: 170px;
+	overflow: hidden;
+}
+/* end of slider */
+.contenido-cabecera1{
+	position:absolute;
+	background:url(imagenes/contenido-cabecera1.png) no-repeat center;
+	width:900px;
+	height:20px;
+	margin:15px auto 0px auto;
+	z-index:3;
+}
+.contenido-cabecera2{
+	position:absolute;
+	background:url(imagenes/contenido_cebecera1.png) no-repeat center;
+	width:900px;
+	height:35px;
+	margin:0px auto 0px auto;
+	border:1p #000 solid;
+	z-index:1;
+}
+.contenido-cabecera3{
+	position:absolute;
+	background:url(imagenes/contenido_cebecera2.png) no-repeat center;
+	width:900px;
+	height:20px;
+	margin:15px auto 0px auto;
+	z-index:0;
+}
+.contenido-contenido1{
+	position:relative;
+	background:url(imagenes/contenido-contenido1.png) repeat-y center;
+	width:900px;
+	margin:33px auto 0px auto;
+	z-index:3;
+}
+.contenido-contenido2{
+	position:relative;
+	background:url(imagenes/contenido_contenido1.png) repeat-y center;
+	width:900px;
+	margin:0px auto 0px auto;
+	z-index:2;
+}
+.contenido-contenido3{
+	position:relative;
+	background:url(imagenes/contenido_contenido2.png) repeat-y center;
+	width:900px;
+	margin:20px auto 0px auto;
+	z-index:0;
+}
+.footer1{
+	position:absolute;
+	background:url(imagenes/contenido-footer1.png) no-repeat center;
+	width:900px;
+	height:20px;
+	margin:0px auto 0px auto;
+	z-index:3;
+}
+.footer2{
+	position:absolute;
+	background:url(imagenes/contenido_footer2.png) no-repeat center;
+	width:900px;
+	height:35px;
+	margin:0px auto 0px auto;
+	z-index:2;
+}
+.footer3{
+	position:absolute;
+	background:url(imagenes/contenido_footer3.png) no-repeat center;
+	width:900px;
+	height:20px;
+	margin:0px auto 0px auto;
+	z-index:0;
+}
+.bloque-izquierdo{
+	position:relative;
+	background:url(imagenes/bloque-izquierdo.png) no-repeat center;
+	width:260px;
+	height:280px;
+}
+.titulob{
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	padding: 5px 0px;
+	color:rgba(0,0,0,0.2);
+	text-shadow:1px 1px 0px rgba(255, 255, 255,3.0);
+}
+.contenido-izquierdo{
+	color:#666;
+	padding:5px 5px;
+	font-weight:bold;
+	font-size:16px;
+}
+.contenido-izquierdo a{
+	font-weight:bold;
+	color:#666;
+	text-decoration:none;
+}
+.contenido-izquierdo a:hover{
+	font-weight:bold;
+	color:#333;
+	text-decoration:underline;
+}
+.contenido h2{
+	text-align:left;
+	font-weight:bold;
+	font-size:17px;
+	padding: 5px 0px;
+	color:rgba(0,0,0,1.2);
+	text-shadow:1px 1px 0px rgba(255, 255, 255,3.0);
+}
+.contenedor{
+	margin:0px auto 0px auto;
+	width:800px;
+}
+.contenido{
+	color:#FFF;
+	font-family:"Verdana", Courier, monospace;
+	font-size:14px;
+}

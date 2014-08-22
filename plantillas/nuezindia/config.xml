@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Nuez de la India</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>logo.jpg</imagen>
+    <archivo>inicio</archivo>
+	<estilos>css/style</estilos>
+  </configuracion>
+</instalacion>

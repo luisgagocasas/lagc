@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Pc Lima</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>imagenes/logo.gif</imagen>
+    <archivo>inicio</archivo>
+	<estilos>css/style</estilos>
+  </configuracion>
+</instalacion>

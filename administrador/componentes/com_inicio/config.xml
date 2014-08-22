@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuracion>
+    <variables>
+       <tipo>1</tipo>
+       <archivo>inicio</archivo>
+       <lenguaje>php</lenguaje>
+    </variables>
+</configuracion>

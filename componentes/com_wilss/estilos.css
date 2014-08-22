@@ -1,0 +1,99 @@
+.marqueephotos {
+	margin:0px auto;
+	position:relative;
+	display:block;
+	top:0px;
+	width:1020px;
+	height:130px;
+	background:url(imagenes/bg-galeria.png) no-repeat center;
+}
+.marqueephotos img {
+	width:140px;
+	margin:3px 0px;
+	padding:0px 15px;
+	cursor:pointer;
+}
+.showimg {
+	-moz-box-shadow:0px 0px 15px 2px #000000;
+	-webkit-box-shadow:0px 0px 15px 2px #000000;
+	box-shadow:0px 0px 15px 2px #000000;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	margin:15px 10px;
+}
+.showimgthum {
+	-moz-box-shadow:0px 0px 15px 2px #000000;
+	-webkit-box-shadow:0px 0px 15px 2px #000000;
+	box-shadow:0px 0px 15px 2px #000000;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	margin:5px 10px;
+	-webkit-transition:-webkit-transform 0.7s ease-in;
+	-o-transition:-o-transform 0.7s ease-in;
+	width:150px;
+	height:100px;
+}
+.showimgthum:hover {
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	-webkit-transition:-webkit-transform 0.4s ease-in;
+	-o-transition:-o-transform 0.4s ease-in;
+}
+.about {
+	width:370px;
+	-moz-box-shadow:0px 0px 15px 2px #000000;
+	-webkit-box-shadow:0px 0px 15px 2px #000000;
+	box-shadow:0px 0px 15px 2px #000000;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	margin:0px 0px;
+	background:#FFF;
+}
+.about a {
+	color:#06C;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:18px;
+	font-family:'PFStampsPro-Metal';
+}
+.about a:hover {
+	color:#060;
+}
+.about img {
+	width:20px;
+}
+.redesmargen {
+	margin:-15px 20px;
+	padding:0px 0px;
+}
+/*carrusel*/
+.carrusel {
+	height:90px;
+	overflow:hidden;
+	width:970px;
+	margin: 0px auto;
+}
+.bloque-imagenes {
+	padding:0;
+	width:560px;
+}
+.bloque-imagenes li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:12px;
+	display:inline;
+	float:left;
+}
+.bloque-imagenes li img {
+	height:73px;
+	width:109px;
+	border:0;
+}
+.bloque-imagenes a:hover img {
+	border:1px #fff solid;
+}

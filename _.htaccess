@@ -1,0 +1,14 @@
+RewriteEngine On
+Options All -Indexes
+#Ocultar contenidos sin index
+#php_value zlib.output_compression 16386
+#Comprimir
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript application/x-httpd-php application/rss+xml application/atom_xml text/javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+#Acelerar carga del sitio
+#Disfrazar Url
+RewriteRule ^([a-zA-Z0-9_-]+)\/$ index.php?lagc=com_$1 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)\/([0-9]+)\-([a-zA-Z0-9_-]+)\/$ index.php?lagc=com_$1&id=$2&ver=$3 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)\/categoria:([0-9]+)\-([a-zA-Z0-9_-]+)\/$ index.php?lagc=com_$1&id=$2&categoria=$3 [L]

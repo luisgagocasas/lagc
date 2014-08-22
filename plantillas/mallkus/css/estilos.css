@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px 0px;
+	font-family:"bank-gothic-light-bt";
+	/*background:url(../imagenes/bg.jpg) repeat-y top;*/
+}
+@font-face {
+	font-family: "bank-gothic-light-bt";
+	src: url("../bank-gothic-light-bt.ttf");
+}
+.cabecera {
+	/*border:1px #000 solid;*/
+	margin:0px auto;
+	display:block;
+	width:985px;
+	height:auto;
+}
+.logo {
+	/*border:1px #000 solid;*/
+	display:block;
+	margin:10px 60px;
+	padding:0px 0px;
+	width:240px;
+	height:130px;
+	background:url(../imagenes/logo.png) no-repeat center;
+}
+.bloquer1{
+	/*border:1px #000 solid;*/
+	display:block;
+	margin:-10px 0px;
+	float:right;
+	width:255px;
+	height:150px;
+	background:#990000;
+}
+.bloquer1 a {
+	color:#FFF;
+	text-decoration:none;
+	font-size:15px;
+	font-family:"bank-gothic-light-bt";
+}
+.menu {
+	display:block;
+	margin:1px auto;
+	/*border:1px #FFF solid;*/
+	width:985px;
+	height:40px;
+	background:#000;
+	/*background:url(../imagenes/bg_menus.jpg) no-repeat;*/
+}
+.menu ul {
+	position:absolute;
+	display:block;
+	margin: 10px 0px;
+}
+.menu li {
+	list-style-type:none;
+	display:inline;
+	margin:0px 0px;
+}
+.menu a {
+	color:#FFF;
+	text-decoration:none;
+	font-family:"bank-gothic-light-bt";
+	font-size:15px;
+	font-weight:bold;
+	margin:0px 0px;
+	padding:5px 1px;
+	/*-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	letter-spacing:1px;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.8;
+	KhtmlOpacity: .8;
+	opacity: .8;*/
+}
+.menu a:hover {
+	border-left:3px #FFF solid;
+	border-right:3px #FFF solid;
+	color:#CCC;
+}
+#menuactual {
+	color:#FFF;
+	border-left:3px #FFF solid;
+	border-right:3px #FFF solid;
+}
+br {
+	margin:0px 0px;
+	padding:0px 0px;
+}
+.contpagina {
+	/*border:1px #000 solid;*/
+	width:985px;
+	display:block;
+	height:490px;
+	margin:-2px auto;
+	background:url(../imagenes/fondopag.jpg) no-repeat #000;
+}
+.contpagina li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.contpagina img {
+	margin:0px 15px;
+}
+.contenido{
+	width:728px;
+	float:left;
+	height:auto;
+	color:#FFF;
+	padding:0px 0px;
+	/*border:1px #000 solid;*/
+}
+.derecho{
+	display:block;
+	float:right;
+	width:255px;
+	height:490px;
+	background:#990000;
+}
+h2 {
+	color:#990000;
+	font-size:20px;
+	font-weight:bold;
+	padding: 0px 10px;
+	font-family:"bank-gothic-light-bt";
+}
+hr {
+	border:1px #990000 solid;
+	margin:-15px 0px 0px 0px;
+}
+p {
+	margin:8px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:0px 10px;
+}
+#slider_wrapper {
+	clear: both;
+	width: 755px;
+	height: 230px;
+	margin-bottom: 15px;
+	z-index:1;
+}
+#slider_wrapper_n h2 {
+	color: #fff;
+	background:#A90305;
+}
+#slider_wrapper_n p {
+	font-size: 16px
+}
+#slider {
+	width: 755px;
+	height: 230px;
+	overflow: hidden;
+}
+.input, .textarea {
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	color:#960;
+}
+.inputenviar {
+	padding:5px 10px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	color:#960;
+}
+strong {
+	color:#990000;
+}
+/*carrusel*/
+
+.carrusel{
+height: 400px;
+overflow:hidden;
+width: 165px;
+}
+
+.bloque-imagenes{
+margin:0 0 0 12px;
+padding:0;
+}
+
+.bloque-imagenes li{
+list-style:none;
+margin:0;
+padding:0;
+margin-bottom:12px;
+}
+
+.bloque-imagenes li img{
+height: 100px;
+width: 130px;
+border:0px;
+}
+
+.bloque-imagenes a:hover img{
+border:1px #fff solid;
+}

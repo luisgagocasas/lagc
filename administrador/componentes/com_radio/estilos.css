@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.listard {
+	width: 450px;
+	margin: 10px;
+}
+.listard li{
+	list-style-type:none;
+	border:1px #CCC solid;
+	color: #FFF;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	background:#09C;
+}
+.listard li:hover {
+	color: #FFF;
+	background:#999;
+	
+}
+.prord{
+	float:right;
+	margin:0px 5px;
+}
+.botones_about{
+	position:relative;
+	display:inline;
+	width:100px;
+	border:0px #000 solid;
+	-moz-border-radius:5px 5px 2px 2px;
+	-webkit-border-radius:5px 5px 2px 2px;
+	border-radius:5px 5px 2px 2px;
+	padding:5px 5px 5px 5px;
+	-moz-box-shadow:2px 2px 5px 1px #666;
+	-webkit-box-shadow:2px 2px 5px 1px #666;
+	box-shadow:2px 2px 5px 1px #666;
+	margin:0px 5px 0px 5px;
+}
+.marco_about{
+	width:300px;
+	border:0px #000 solid;
+	-moz-border-radius:5px 5px 2px 2px;
+	-webkit-border-radius:5px 5px 2px 2px;
+	border-radius:5px 5px 2px 2px;
+	padding:5px 5px 5px 5px;
+	-moz-box-shadow:2px 2px 5px 1px #666;
+	-webkit-box-shadow:2px 2px 5px 1px #666;
+	box-shadow:2px 2px 5px 1px #666;
+}
+.botones_about:hover{
+	background-color: #94B52C;
+	margin-top:-2px;
+	padding-bottom:12px;
+}
+.botones_about a{
+	color:#09C;
+	font-size:12px;
+}
+.botones_about a:hover{
+	color:#000;
+}

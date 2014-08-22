@@ -1,0 +1,1 @@
+Proximamente configuraciones para este tipo :)

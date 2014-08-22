@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.paginacion {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	text-align: center;
+	padding: 5px 5px;
+	white-space: nowrap;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:100px;
+}
+.contenido1 {
+	background:#ACD6DD;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.contenido2 {
+	background:#79B714;
+	border:1px #CCC outset;
+	padding:3px 2px;
+	text-transform:capitalize;
+	color:#FFF;
+	margin:3px auto;
+}
+.SiteBloqueado {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 20% auto;
+	text-align: center;
+	padding: 5px 5px;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:300px;
+}
+/*galeria fin*/
+.comentario1 {
+	color:#000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background:#CCC;
+	padding:6px 3px;
+	margin:3px 0px;
+	width:auto;
+}
+.comentario2 {
+	color:#000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding:6px 3px;
+	background:#09C;
+	margin:3px 0px;
+	width:auto;
+}
+/*Comentario*/
+.frmcontac {
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-user-select: none;
+	background: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+	border: 1px solid #AAA;
+	color: #444;
+	font-size: inherit;
+	margin-bottom: 0px;
+	min-width: 4em;
+	padding: 3px 12px 3px 12px;
+}
+/*Avisos*/
+.AvisoIdentificate {
+	background:#069;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 0px 0px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius: 0px 0px;
+	border:1px #399 solid;
+	padding:10px 10px;
+	color:#FFF;
+}
+@font-face {
+	font-family: "lg01";
+	src: url("KUNSTLER.TTF");
+}
+@font-face {
+	font-family: "lg02";
+	src: url("GOTHIC.TTF");
+}
+.pagina {
+	border:1px #3F0 solid;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 10px;
+	height:559px;
+}
+.menu {
+	float:right;
+	margin:10px 50px;
+	border:1px #090 solid;
+	background:#096;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 0px 0px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius: 0px 0px;
+	border:1px #399 solid;
+	padding:5px 5px;
+	color:#FFF;
+	width:120px;
+	text-align:center;
+}
+.menu a:link {
+	color:#FFF;
+	text-decoration:none;
+}
+.menu a:visited {
+	color:#CCC;
+	text-decoration:none;
+}
+.logo{
+	float:left;
+	margin:10px 50px;
+	text-align:center;
+	font-family:"lg01";
+	font-size:45px;
+}
+.contenido {
+	font-family:"lg02";
+	font-size:24px;
+}
+.pie {
+	background:#096;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-top-left-radius: 0px 0px;
+	border-top-right-radius: 10px 0px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border:1px #399 solid;
+	padding:5px 5px;
+	color:#FFF;
+	width:900px;
+	font-size:14px;
+	text-align:center;
+}
+.title{
+	margin:5px 20px;
+	font-family:"lg02";
+	font-size:16px;
+}
+input {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}

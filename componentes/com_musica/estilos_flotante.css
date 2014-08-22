@@ -1,0 +1,35 @@
+*{
+	font-size: 12px;
+}
+td{
+	font-size: 12px;
+}
+a {
+	color: #666666;
+	font-size: 14px;
+	text-decoration: none;
+}
+#textovisible {
+	margin: 100px;
+	width: 200px;
+	background: #ddd;
+	padding: 20px;
+	position: relative;
+}
+#textovisible:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	margin: -10px 0 0;
+	border-right: 10px solid #ddd;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+#textovisible, #textovisible2 {
+	-webkit-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+	-moz-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+	-ms-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+	-o-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+	filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+}

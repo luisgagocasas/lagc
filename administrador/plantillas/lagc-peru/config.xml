@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Lagc Perú</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>imagenes/logo.jpg</imagen>
+    <archivo>inicio</archivo>
+	<estilos>css/screen</estilos>
+  </configuracion>
+</instalacion>

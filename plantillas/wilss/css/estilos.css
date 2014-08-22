@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "PFStampsPro-Metal";
+	src: url("../metal.ttf");
+}
+body{
+	background:url(../imagenes/fondo2.jpg) no-repeat center;
+	background-position:top;
+	background-color:#882B23;
+}
+.cabecera{
+	width: 1025px;
+	height: 125px;
+	margin: 0px auto;
+	background:url(../imagenes/cabecera.png) no-repeat center;
+}
+.contenidos{
+	margin:0px auto;
+	position:relative;
+	display:block;
+	top:15px;
+	width:1020px;
+	height:380px;
+}
+.contenidos h2{
+	text-align:left;
+	margin:10px 15px;
+	font-weight:bold;
+	color:#FFAB00;
+	font-family: 'PFStampsPro-Metal', cursive;
+}
+.input{
+	font-family:"Courier New", Courier, monospace;
+	height:10px;
+	border:1px #FFAB00 solid;
+	color:#FFF;
+	padding:10px 10px;
+	-border-radius: 4px 4px 4px 4px;
+	moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	background:url(../imagenes/fondo.png) no-repeat center;
+}
+.textoform{
+	font-family:'PFStampsPro-Metal';
+	font-size:16px;
+	color:#FFF;
+}
+.textarea{
+	font-family:"Courier New", Courier, monospace;
+	border:1px #999 solid;
+	color:#FFF;
+	padding:10px 10px;
+	-border-radius: 4px 4px 4px 4px;
+	moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	background:url(../imagenes/fondo.png) no-repeat center;
+	border:1px #FFAB00 solid;
+}
+.textodescri{
+	font-family:'PFStampsPro-Metal';
+	font-size:18px;
+	color:#FFF;
+}
+.textodescri a{
+	color:#FFAB00;
+}
+.textodescri a:hover{
+	color:#000;
+}
+.botonfrm{
+	-border-radius: 4px 4px 4px 4px;
+	moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	color:#FFF;
+	background:#900;
+	font-family:'PFStampsPro-Metal';
+}
+#actualenlace{
+	color:#FFAB00;
+}
+iframe{
+	-border-radius: 4px 4px 4px 4px;
+	moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+}
+.footer{
+	margin:0px auto;
+	position:relative;
+	display:block;
+	top:105px;
+	width:1020px;
+	height:130px;
+	background:url(../imagenes/bg-footer.png) no-repeat center;
+}

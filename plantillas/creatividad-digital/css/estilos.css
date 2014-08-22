@@ -1,0 +1,168 @@
+a{color:#08c;text-decoration:none}
+a:visited{color:#518707}
+body{color:#333;font-family:'Open Sans',arial,sans-serif;font-size:100%;margin:0;padding:0}
+header{margin:0;padding:0;width:100%;vertical-align:top;-moz-box-shadow:0 0 30px -5px #000;-webkit-box-shadow:0 0 30px -5px #000;-o-box-shadow:0 0 30px -5px #000;box-shadow:0 0 30px -5px #000;}
+header .logo1{margin:0;padding:0;display:inline-block}header .logo2{margin:0;padding:0;display:inline-block;}
+header .logo2 img{width:100%;height:100%}header .navbar{margin:0}
+header .navbar .brand{color:#518707;display:block;float:left;padding:8px 20px 12px;margin-left:-20px;font-size:20px;font-weight:200;line-height:1;font-family:'Open Sans',arial,sans-serif}
+header .navbar .brand:hover{color:#08c}header .login form,header .login ul{list-style-type:none;margin:0;padding:0;}
+header .login form li,header .login ul li{border-bottom:1px solid #eee;position:relative}
+header .login form label,header .login ul label{color:#555;display:inline-block;float:left;font-family:sans-serif;font-weight:bold;margin-top:0;font-family:'Open Sans',arial,sans-serif}
+header .login form input,header .login ul input{border:1px solid #aaa;box-shadow:0 0 3px #ccc,0 10px 15px #eee inset;border-radius:2px;color:#888;-moz-transition:padding .25s;-webkit-transition:padding .25s;-o-transition:padding .25s;transition:padding .25s}
+header .login form input:focus,header .login ul input:focus{background:#fff;border:1px solid #555;box-shadow:0 0 3px #aaa;padding-right:10px}
+header .login form input:required:valid,header .login ul input:required:valid{box-shadow:0 0 5px #5cd053;border-color:#28921f}
+header .login form input:focus:invalid,header .login ul input:focus:invalid{box-shadow:0 0 5px #d45252;border-color:#b03535}
+header .submit{padding:10px 17px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;line-height:1;color:#444;border:none;text-shadow:0 1px 1px rgba(255,255,255,0.85);background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#bbb));background-image:-moz-linear-gradient(0% 100% 90deg,#bbb,#fff);background-color:#fff;border:1px solid #f1f1f1;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,0.5)}
+header .submit:hover{opacity:.55;cursor:pointer;color:#fff}
+header .submit:active{border:1px solid #222;box-shadow:0 0 10px 5px #444 inset}
+.proyectos{width:100%;}.proyectos h2{font-weight:bold;margin:0 0 0 10px;padding:0}
+.proyectos ul{list-style-type:none;margin:0 5px 0 5px;padding:0;}.proyectos ul li{border:1px #000 solid;display:inline-block;}
+.proyectos ul li a{margin:0 0 0 0;text-align:center;display:block;font-family:'Open Sans',arial,sans-serif}
+.proyectos ul li a:hover{text-decoration:none}.proyectos ul li img{width:200px;height:180px}
+.proyectos ul li span{margin:10px 0 0 0}.pie{height:auto;background:#fff;padding:0 0 0 0;}
+.pie ul,.pie li{list-style-type:none;margin:0;padding:0;display:inline-table;}.pie ul li,.pie li li{padding:3px 0 3px 3px;font-size:15px;}
+.pie ul li a,.pie li li a{font-family:'Open Sans',arial,sans-serif}.pie ul li:hover,.pie li li:hover,.pie ul li:hover a,.pie li li:hover a{color:#fff;background:#0068aa;text-decoration:none}
+.pie ul li:before,.pie li li:before{content:url("../img/bullets.png");margin-right:6px;bottom:2px;margin-left:0}
+.pie .tiempo{margin:0;width:auto;height:150px;display:inline-table;float:right;margin:0 25px 0 0}
+.pie p{padding:3px;margin:0;text-align:center;font-family:'Open Sans',arial,sans-serif;}
+.pie p a{text-decoration:none;font-family:'Open Sans',arial,sans-serif}
+.pie .siguenos{margin:0 auto;padding:0;width:170px}
+.pie .redessoci{margin:0 auto;padding:0;width:104px}
+.efecto{position:relative;-webkit-box-shadow:0 0 4px #777,0 0 20px #ccc inset;-moz-box-shadow:0 0 4px #777,0 0 20px #ccc inset;-o-box-shadow:0 0 4px #777,0 0 20px #ccc inset;box-shadow:0 0 4px #777,0 0 20px #ccc inset;-webkit-border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0;-o-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0}
+.efecto:before,.efecto:after{content:"";position:absolute;z-index:-1;-webkit-box-shadow:0 0 20px #777;-moz-box-shadow:0 0 20px #777;box-shadow:0 0 20px #777;top:0;bottom:0;left:10px;right:10px;-moz-border-radius:100px/10px;border-radius:100px/10px}
+@media screen and (max-width: 240px) and (min-width: 200px){body{margin:0;padding:0}
+header{width:220px;}header .logo1{display:none}header .navbar{margin:5px 0 0 0}
+header .login{width:220px;}header .login form{margin:0 0 0 5px}header .login ul{width:200px;}
+header .login ul li{padding:2px}header .login ul label{font-size:12px;width:90px}
+header .login ul input{width:195px;font-size:12px;padding-right:30px;padding:5px}
+header .submit{padding:10px 17px}.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}.proyectos ul li{width:90px;height:100px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:90px}.proyectos ul li img{width:90px;height:100px}
+.proyectos ul li span{font-size:16px}.pie{width:215px;}
+.pie ul li{width:210px}
+.pie .tiempo{display:none}
+}@media screen and (max-width: 320px) and (min-width: 240px){body{margin:0;padding:0}
+header{width:300px;}
+header .logo1{display:none}
+header .navbar{margin:5px 0 0 0}
+header .login{width:300px;}
+header .login form{margin:0 0 0 5px}
+header .login ul{width:290px;}
+header .login ul li{padding:2px}
+header .login ul label{font-size:12px;width:90px}
+header .login ul input{width:260px;font-size:12px;padding-right:30px;padding:5px}
+header .submit{padding:10px 17px}
+.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}
+.proyectos ul li{width:120px;height:100px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:120px}
+.proyectos ul li img{width:120px;height:100px}
+.proyectos ul li span{font-size:16px}
+.pie{width:300px;}
+.pie ul li{width:297px}
+.pie .tiempo{display:none}
+}@media screen and (max-width: 480px) and (min-width: 320px){body{margin:0;padding:0}
+header{width:460px;}
+header .logo1{display:none}
+header .logo2 img{width:460px;height:182px}
+header .navbar{margin:5px 0 0 0}
+header .login{width:460px;}
+header .login form{margin:0 0 0 5px}
+header .login ul{width:455px;}
+header .login ul li{padding:2px}
+header .login ul label{font-size:14px;width:100px;padding:5px 5px 0 0;text-align:right}
+header .login ul input{width:260px;font-size:12px;padding-right:30px;padding:5px}
+header .login ul input:focus{padding-right:20px}
+header .submit{padding:10px 17px}
+.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}
+.proyectos ul li{width:130px;height:120px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:130px}
+.proyectos ul li img{width:130px;height:120px}
+.proyectos ul li span{font-size:16px}
+.pie{width:440px;margin:0 15px 10px 15px;}
+.pie ul{width:230px;}
+.pie ul li{width:230px}
+.pie .tiempo{text-align:center;}
+.pie .tiempo span{font-size:2em;margin:10px 0 0 0;display:block;font-weight:bold}
+.pie .tiempo h2{font-size:8em;margin:30px 0 0 0}
+.pie .tiempo h3{margin:30px 0 0 0;font-size:2em}
+}@media screen and (max-width: 360px) and (min-width: 320px){body{margin:0;padding:0}
+header{width:360px;}
+header .logo2 img{width:360px;height:142px}
+header .navbar{margin:5px 0 0 0}
+header .login{width:360px;}
+header .login form{margin:0 0 0 5px}
+header .login ul{width:360px;}
+header .login ul li{padding:2px}
+header .login ul label{font-size:14px;width:100px;padding:0;text-align:left}
+header .login ul input{width:300px;font-size:12px;padding-right:30px;padding:5px}
+header .login ul input:focus{padding-right:20px}
+header .submit{padding:10px 17px}
+.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}
+.proyectos ul li{width:140px;height:130px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:140px}
+.proyectos ul li img{width:140px;height:130px}
+.proyectos ul li span{font-size:16px}
+.pie{width:360px;margin:0;}
+.pie ul{width:100%;}
+.pie ul li{width:100%}
+.pie .tiempo{display:none}
+}@media screen and (max-width: 640px) and (min-width: 480px){body{margin:0;padding:0}
+header{width:640px;}
+header .logo1{width:300px}
+header .logo2{width:300px;}
+header .logo2 img{width:300px;height:119px}
+header .navbar{margin:5px 0 0 0}
+header .login{width:300px;}
+header .login form{margin:0 0 0 5px}
+header .login ul{width:300px;}
+header .login ul li{padding:2px}
+header .login ul label{font-size:14px;width:100px;padding:5px 5px 0 0;text-align:right}
+header .login ul input{width:90px;font-size:12px;padding-right:30px;padding:5px}
+header .login ul input:focus{padding-right:20px}
+header .submit{padding:10px 17px}
+.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}
+.proyectos ul li{width:130px;height:120px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:130px}
+.proyectos ul li img{width:130px;height:120px}
+.proyectos ul li span{font-size:16px}
+.pie{width:600px;margin:0 15px 10px 15px;}
+.pie ul{width:230px;margin:5px 0 0 5px;}
+.pie ul li{width:230px}
+.pie .tiempo{text-align:center;}
+.pie .tiempo span{font-size:2em;margin:10px 0 0 0;display:block;font-weight:bold}
+.pie .tiempo h2{font-size:8em;margin:30px 0 0 0}
+.pie .tiempo h3{margin:30px 0 0 0;font-size:2em}
+}@media screen and (max-width: 2024px) and (min-width: 1024px){body{margin:0;padding:0;background:url("../img/logo2.png") repeat}
+header{width:1000px;margin:0 auto;background:#fff;}
+header .logo1{width:350px;}
+header .logo1 img{width:350px;height:138px}
+header .logo2{width:350px;}
+header .logo2 img{width:350px;height:138px}
+header .navbar{margin:5px 0 0 0}
+header .login{width:290px;position:absolute;margin:10px 0 0 710px;top:0;}
+header .login form{margin:0 0 0 5px}
+header .login ul{width:300px;}
+header .login ul li{padding:2px;border-bottom:none}
+header .login ul label{font-size:13px;width:85px;padding:5px 5px 0 0;text-align:right}
+header .login ul input{width:140px;font-size:12px;padding-right:30px;padding:5px}
+header .login ul input:focus{padding-right:20px}
+header .submit{padding:10px 17px}
+.proyectos{width:1000px;margin:0 auto;background:#fff;}
+.proyectos h2{font-size:14px}
+.proyectos ul{width:100%;}
+.proyectos ul li{width:148px;height:120px;margin:0 0 20px 10px;}
+.proyectos ul li a{width:148px}
+.proyectos ul li img{width:148px;height:120px}
+.proyectos ul li span{font-size:16px}
+.pie{width:1000px;margin:0 auto;}
+.pie ul{width:230px;margin:5px 0 0 5px;}
+.pie ul li{width:230px}
+.pie .tiempo{text-align:center;}
+.pie .tiempo span{font-size:2em;margin:10px 0 0 0;display:block;font-weight:bold}
+.pie .tiempo h2{font-size:8em;margin:30px 0 0 0}
+.pie .tiempo h3{margin:30px 0 0 0;font-size:2em}
+}

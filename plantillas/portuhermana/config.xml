@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Grupo Por tu Hermana</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>images/logo-xth.png</imagen>
+    <archivo>inicio</archivo>
+	<estilos>stylesheets/style.css</estilos>
+  </configuracion>
+</instalacion>

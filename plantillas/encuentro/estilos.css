@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0px 0px;
+	padding:0px 0px;
+}
+div.principal {
+	width:800px;
+	height:700px;
+	background:url(imagenes/fondogeneral.jpg) no-repeat;
+	margin:auto;
+	margin-top:50px;
+	padding:0px;
+}
+div.principal1 {
+	width:800px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+}
+div.principal1-1 {	/*menu*/
+	width:225px;
+	height:500px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	background:url(imagenes/menu.png) no-repeat;
+	background-position:50% 50%;
+	position:relative;
+	top:-29px;
+	left:0px;
+}
+div.principal1-2 {
+	width:266px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+	background:url(imagenes/logo.png) no-repeat;
+	background-position:50% 50%;
+	float:left;
+}
+div.principal1-3 {
+	width:266px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+	background:url(imagenes/ceviche.png) no-repeat;
+	position:50% 50%;
+	float:left;
+	position:relative;
+	left:100px;
+	bottom:50px;
+}
+div.principal2 {
+	width:800px;
+	height:410px;
+	padding:0px;
+	margin:0px;
+}
+div.principal3 {
+	width:800px;
+	height:144px;
+	padding:0px;
+	margin:0px;
+}
+div.principal1-1-1 {	/*sub-menu*/
+	width:160px;
+	height:386px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	/*background-color:#0C3;*/
+	position:relative;
+	top:100px;
+	left:12px;
+}
+div.principal1-1-1 ul li {
+	height:45px;
+	border-bottom:#FFF solid;
+	line-height:45px;
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+}
+div.principal1-1-1 ul li a:link {
+	color:#FFF;
+	text-decoration:none;
+}
+div.principal1-1-1 ul li a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+div.principal1-1-1 ul li a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+div.principal1-1-1 ul li a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+div.principal3 p {
+	text-align:center;
+	color:#FFF;
+}
+div.principal2-1 {/*contenido*/
+	width:650x;
+	height:400px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:4px;
+}

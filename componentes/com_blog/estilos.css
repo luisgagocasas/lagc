@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+.blog-cont1 {
+	width:645px;
+	height: 165px;
+	padding: 5px 0px;
+	text-transform:capitalize;
+	color:#666;
+	margin: 10px 0px;
+	-moz-box-shadow:0px 0px 5px 1px #ccc;
+	-webkit-box-shadow:0px 0px 5px 1px #ccc;
+	box-shadow:0px 0px 5px 1px #ccc;
+	background: #B5D6F8;
+	transition: transform 0.5s linear;
+	-webkit-transition: -webkit-transform 0.5s linear;
+	-moz-transition: -moz-transform 0.5s linear;
+	-o-transition: -o-transform 0.5s linear;
+}
+.blog-cont1:hover{
+	-moz-box-shadow:0px 0px 5px 4px #999;
+	-webkit-box-shadow:0px 0px 5px 4px #999;
+	box-shadow:0px 0px 5px 4px #999;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transition: transform 0.5s linear;
+	-webkit-transition: -webkit-transform 0.5s linear;
+	-moz-transition: -webkit-transform 0.5s linear;
+	-o-transition: -webkit-transform 0.5s linear;
+}
+.blog-cont1 a{
+	color:#000;
+	font-size:14px;
+	text-decoration:none;
+}
+.blog-cont1 a:hover{
+	color:#999;
+}
+.titulo1{
+	background:url("imagenes/borde-patron.png") repeat;
+	padding: 3px 5px;
+	text-transform: capitalize
+}
+.blog-resumen{
+	float:left;
+	width:475px;
+	text-align:justify;
+	/*border:1px #000 solid;*/
+}
+.blog-resumen img{
+	width:150px;
+	height:90px;
+	float:left;
+	margin:0px 5px;
+}
+.blog-ladoderecho{
+	/*border:1px #000 solid;*/
+	border-left: 1px #CCC solid;
+	height: auto;
+	width:135px;
+	padding: 0px 5px;
+	float:right;
+	margin: -15px 0px;
+	color:#CCC;
+	font-size:12px;
+	text-decoration:none;
+	color:#000;
+}
+.blog-ladoderecho a{
+	font-size:12px;
+}
+.blog-cont2 {
+	width:645px;
+	height: 165px;
+	padding: 5px 0px;
+	text-transform:capitalize;
+	color:#666;
+	margin: 10px 0px;
+	-moz-box-shadow:0px 0px 5px 1px #ccc;
+	-webkit-box-shadow:00px 0px 5px 1px #ccc;
+	box-shadow:0px 0px 5px 1px #ccc;
+	background: #fff;
+	transition: transform 0.5s linear;
+	-webkit-transition: -webkit-transform 0.5s linear;
+	-moz-transition: -moz-transform 0.5s linear;
+	-o-transition: -o-transform 0.5s linear;
+}
+.blog-cont2:hover {
+	-moz-box-shadow:0px 0px 5px 4px #999;
+	-webkit-box-shadow:0px 0px 5px 4px #999;
+	box-shadow:0px 0px 5px 4px #999;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transition: transform 0.5s linear;
+	-webkit-transition: -webkit-transform 0.5s linear;
+	-moz-transition: -webkit-transform 0.5s linear;
+	-o-transition: -webkit-transform 0.5s linear;
+}
+.blog-cont2 a{
+	color:#000;
+	font-size:16px;
+	text-decoration:none;
+}
+.blog-cont2 a:hover{
+	color:#666;
+}
+.blog-resumen2{
+	float:left;
+	width:475px;
+	/*border:1px #000 solid;*/
+	text-align:justify;
+}
+.titulo2{
+	background:url("imagenes/pattern_lineas.png") repeat;
+	padding: 3px 5px;
+	text-transform: capitalize
+}
+.blog-resumen2 img{
+	width:150px;
+	height:90px;
+	float:left;
+	margin:0px 5px;
+}
+.blog-ladoderecho2{
+	/*border:1px #000 solid;*/
+	border-left: 1px #CCC solid;
+	height: auto;
+	padding: 0px 5px;
+	float:right;
+	margin: -15px 0px;
+	width:135px;
+	color:#CCC;
+	font-size:12px;
+	text-decoration:none;
+	color:#000;
+}
+.blog-ladoderecho2 a{
+	color:#F15B19;
+	font-size:12px;
+}
+.blog-descropcop{
+	margin:-10px auto 30px auto;
+	width:80%;
+	text-align:justify;
+	text-transform:capitalize;
+	padding:10px 10px;
+	background:#FFF;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+}
+.blog-dejacomentario{
+	color:#FFF;
+	font-weight:bold;
+	padding:5px 5px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	background-color: #5B74A8;
+	border-color: #29447E #29447E #1A356E;
+	font-size:12px;
+}
+.blog-frm-textarea{
+	padding:5px 5px;
+	color:#000;
+}
+.blog-frm-boton{
+	-moz-border-radius:6px 6px 2px 2px;
+	-webkit-border-radius:6px 6px 6px 6px;
+	padding:5px 15px;
+	margin:5px 5px;
+}
+.blog-frm-code{
+	text-align:center;
+	-moz-border-radius:6px 6px 2px 2px;
+	-webkit-border-radius:6px 6px 6px 6px;
+	padding:5px 15px;
+	margin:5px 5px;
+}
+.blog-url-relacionados{
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	background-color:#EBE9EA;
+	border:1px solid #D2D2D2;
+	padding: 5px 10px 0 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	float: left;
+	width: 400px;
+	height: auto;
+}
+.blog-url-relacionados a{
+	font-size:12px;
+	text-decoration:none;
+	-webkit-transition: padding-left 250ms ease-out;
+    -moz-transition: padding-left 250ms ease-out;
+}
+.blog-url-relacionados a:hover{
+	text-decoration:underline;
+	padding-left: 10px;
+}
+.blog-creado-por{
+	overflow: hidden;
+	float: right;
+	width: 110px;
+	height: auto;
+	padding: 5px 10px 0 10px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	background-color: #EBE9EA;
+	border: 1px solid #D2D2D2;
+	color:#666;
+	font-size:12px;
+	text-transform:capitalize;
+	line-height:20px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.blog-tags-articulo{
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	background-color:#EBE9EA;
+	border:1px solid #D2D2D2;
+	margin:5px 0px 5px 5px;
+	padding: 3px 3px 3px 3px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	float: left;
+	height: 15px;
+	width:98%;
+	position:relative;
+}
+.blog-palabra{
+	background:#6C6;
+	padding:0px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius:	5px 5px 5px 5px;
+	color:#FFF;
+	text-decoration:none;
+}
+.blog-palabra:hover{
+	background:#000;
+}
+.blog-texto-descripcion{
+	font-size: 1.10em;
+	text-align:justify;
+	text-transform:capitalize;
+	letter-spacing: none;
+}
+.blog-texto-descripcion img{
+	width:150px;
+	height:90px;
+	float:left;
+	margin:0px 5px;
+}
+.blog-texto-articulo{
+	font-size: 1.20em;
+}
+.blog-texto-articulo a[href^="http"] {
+   background: url(imagenes/external.png) no-repeat;
+   padding-left: 16px;
+}
+.paginacion {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	text-align: center;
+	padding: 5px 5px;
+	white-space: nowrap;
+	font: 12px Georgia;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:100px;
+}
+.coment1 {
+	width:98%;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	background: #ffffff;
+	padding: 10px 10px;
+	text-transform:capitalize;
+	color:#666;
+	margin: 10px 0px;
+}
+.coment1:hover{
+	-moz-box-shadow:0px 0px 15px 2px #000000;
+	-webkit-box-shadow:0px 0px 15px 2px #000000;
+	box-shadow:0px 0px 15px 2px #000000;
+}
+.coment1 a{
+	color:#000;
+	font-size:16px;
+	text-decoration:none;
+}
+.coment1 a:hover{
+	color:#999;
+}
+.coment2 {
+	width:98%;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	background: #17e1ff;
+	padding: 10px 10px;
+	text-transform:capitalize;
+	color:#666;
+	margin: 10px 0px;
+}
+.coment2:hover{
+	-moz-box-shadow:0px 0px 15px 2px #000000;
+	-webkit-box-shadow:0px 0px 15px 2px #000000;
+	box-shadow:0px 0px 15px 2px #000000;
+}
+.coment2 a{
+	color:#000;
+	font-size:16px;
+	text-decoration:none;
+}
+.coment2 a:hover{
+	color:#999;
+}
+.fondoimg{
+	background:url(../../administrador/utilidades/bg.gif) repeat center;
+	overflow:hidden;
+	border:1px #CCC solid;
+}
+.borderinputimg{
+	width:0px;
+	height:0px;
+	border:1px #FFF solid;
+}
+.inp-form {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_inp.gif) no-repeat;
+	border: none;
+	color: #393939;
+	height: 25px;
+	padding: 6px 6px 0 6px;
+	width: 186px;
+}
+#form-textarea {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_textarea.gif) no-repeat;
+	border: none;
+	color: #393939;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 97px;
+	overflow: auto;
+	padding: 6px 6px 0 6px;
+	width: 378px;
+}
+.inp-form1 {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_inp1.gif) no-repeat;
+	border: none;
+	color: #393939;
+	height: 25px;
+	padding: 6px 6px 0 6px;
+	width: 79px;
+}
+.form-cancel {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_cancel.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	margin: 5px 5px;
+	height: 30px;
+	text-indent: -3000px;
+	width: 80px;
+}
+.form-guardar {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_guardar.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	margin: 5px 5px;
+	padding: 0;
+	text-indent: -3000px;
+	width: 80px;
+}
+.form-reset {
+	background: url(../../administrador/plantillas/lagc-peru/imagenes/forms/form_reset.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	margin: 5px 5px;
+	height: 30px;
+	text-indent: -3000px;
+	width: 80px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>Laboratorio Llerena</nombre>
+    <creador>Luis Gago</creador>
+    <imagen>imagenes/laboratorioLlerena-logo.jpg</imagen>
+    <archivo>index</archivo>
+	<estilos>estilos</estilos>
+	<scriscroll>flexcroll</scriscroll>
+  </configuracion>
+</instalacion>

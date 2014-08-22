@@ -1,0 +1,1 @@
+<?php if (empty($_COOKIE["user_lagc"])) { ?><a href="?lagc=com_usuarios&id=entrar" style="background:url(../../../plantillas/radio-xth/imagenes/banner002.png); display:block; width:260px; height:115px; position:absolute; margin:-80px 0px; display:block;"></a><?php } ?>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.marco_about{
+	width:300px;
+	border:0px #000 solid;
+	-moz-border-radius:5px 5px 2px 2px;
+	-webkit-border-radius:5px 5px 2px 2px;
+	border-radius:5px 5px 2px 2px;
+	padding:5px 5px 5px 5px;
+	-moz-box-shadow:2px 2px 5px 1px #666;
+	-webkit-box-shadow:2px 2px 5px 1px #666;
+	box-shadow:2px 2px 5px 1px #666;
+}
+.botones_about{
+	position:relative;
+	display:inline;
+	width:100px;
+	border:0px #000 solid;
+	-moz-border-radius:5px 5px 2px 2px;
+	-webkit-border-radius:5px 5px 2px 2px;
+	border-radius:5px 5px 2px 2px;
+	padding:5px 5px 5px 5px;
+	-moz-box-shadow:2px 2px 5px 1px #666;
+	-webkit-box-shadow:2px 2px 5px 1px #666;
+	box-shadow:2px 2px 5px 1px #666;
+	margin:0px 5px 0px 5px;
+}
+.botones_about:hover{
+	background-color: #94B52C;
+	margin-top:-2px;
+	padding-bottom:12px;
+}
+.botones_about a{
+	color:#999;
+	font-size:12px;
+}
+.botones_about a:hover{
+	color:#000;
+}
+.botones_about img{
+	margin:0px 0px -5px 0px;
+	padding:0px 0px 0px 0px;
+}

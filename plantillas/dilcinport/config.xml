@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instalacion>
+  <configuracion>
+    <nombre>dilcinport</nombre>
+    <author>Luis Gago</author>
+    <imagen>imagen.jpg</imagen>
+    <archivo>inicio</archivo>
+  </configuracion>
+</instalacion>

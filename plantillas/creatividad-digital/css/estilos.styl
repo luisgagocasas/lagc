@@ -1,0 +1,238 @@
+a
+	color #08C
+	text-decoration none
+
+a:visited
+	color #518707
+
+body
+	color #333
+	font-family 'Open Sans', arial, sans-serif
+	font-size 100%
+	margin 0
+	padding 0
+
+header
+	margin 0
+	padding 0
+	width 100%
+	vertical-align top
+	-moz-box-shadow 0 0 30px -5px #000
+	-webkit-box-shadow 0 0 30px -5px #000
+	-o-box-shadow 0 0 30px -5px #000
+	box-shadow 0 0 30px -5px #000
+
+	.logo1
+		margin 0
+		padding 0
+		display inline-block
+
+	.logo2
+		margin 0
+		padding 0
+		display inline-block
+
+		img
+			width 100%
+			height 100%
+
+	.navbar
+		margin 0
+
+	.navbar .brand
+			color #518707
+			display block
+			float left
+			padding 8px 20px 12px
+			margin-left -20px
+			font-size 20px
+			font-weight 200
+			line-height 1
+			font-family 'Open Sans', arial, sans-serif
+
+	.navbar .brand:hover
+		color #08C
+
+
+	.login
+		form, ul
+			list-style-type none
+			margin 0px
+			padding 0px
+
+			li
+				border-bottom 1px solid #eee
+				position relative
+
+			label
+				color #555555
+				display inline-block
+				float left
+				font-family sans-serif
+				font-weight bold
+				margin-top 0px
+				font-family 'Open Sans', arial, sans-serif
+
+			input
+				border 1px solid #aaa
+				box-shadow 0px 0px 3px #ccc, 0 10px 15px #eee inset
+				border-radius 2px
+				color #888
+				-moz-transition padding 0.25s
+				-webkit-transition padding 0.25s
+				-o-transition padding 0.25s
+				transition padding 0.25s
+
+			input:focus
+				background #fff
+				border 1px solid #555
+				box-shadow 0 0 3px #aaa
+				padding-right 10px
+
+			input:required:valid
+				box-shadow 0 0 5px #5cd053
+				border-color #28921f
+
+			input:focus:invalid
+				box-shadow 0 0 5px #d45252
+				border-color #b03535
+
+	.submit
+			padding 10px 17px
+			font-family Helvetica, Arial, sans-serif
+			font-weight bold
+			line-height 1
+			color #444
+			border none
+			text-shadow 0 1px 1px rgba(255, 255, 255, 0.85)
+			background-image -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb))
+			background-image -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF)
+			background-color #fff
+			border 1px solid #f1f1f1
+			border-radius 10px
+			box-shadow 0 1px 2px rgba(0, 0, 0, 0.5)
+
+	.submit:hover
+		opacity 0.55
+		cursor pointer
+		color #fff
+
+	.submit:active
+		border 1px solid #222
+		box-shadow 0 0 10px 5px #444 inset
+
+.proyectos
+	width 100%
+	h2
+		font-weight bold
+		margin 0 0 0 10px
+		padding 0
+	ul
+		list-style-type none
+		margin 0 5px 0 5px
+		padding 0
+
+		li
+			border 1px #000 solid
+			display inline-block
+
+			a
+				margin 0px 0px 0px 0px
+				text-align center
+				display block
+				font-family 'Open Sans', arial, sans-serif
+
+			a:hover
+					text-decoration none
+
+			img
+				width 200px
+				height 180px
+
+			span
+				margin 10px 0 0 0
+
+.pie
+	height auto
+	background #FFF
+	padding 0 0 0 0
+
+	ul, li
+		list-style-type none
+		margin 0
+		padding 0
+		display inline-table
+
+		li
+			padding 3px 0 3px 3px
+			font-size 15px
+
+			a
+				font-family 'Open Sans', arial, sans-serif
+
+		li:hover, li:hover a
+			color #FFF
+			background #0068AA
+			text-decoration none
+
+		li:before
+			content url('../img/bullets.png')
+			margin-right 6px
+			bottom 2px
+			margin-left 0px
+
+	.tiempo
+		margin 0
+		// border 1px solid #000
+		width auto
+		height 150px
+		display inline-table
+		float right
+		margin 0 25px 0 0
+
+	p
+		padding 3px
+		margin 0
+		text-align center
+		font-family 'Open Sans', arial, sans-serif
+
+		a
+			text-decoration none
+			font-family 'Open Sans', arial, sans-serif
+
+	.siguenos
+		margin 0 auto
+		padding 0
+		width 170px
+
+	.redessoci
+		margin 0 auto
+		padding 0
+		width 104px
+
+.efecto
+	position relative
+	-webkit-box-shadow 0 0px 4px #777, 0 0 20px #CCC inset
+	-moz-box-shadow 0 0px 4px #777, 0 0 20px #CCC inset
+	-o-box-shadow 0 0px 4px #777, 0 0 20px #CCC inset
+	box-shadow 0 0px 4px #777, 0 0 20px #CCC inset
+	-webkit-border-radius 10px 10px 0 0
+	-moz-border-radius 10px 10px 0 0
+	-o-border-radius 10px 10px 0 0
+	border-radius 10px 10px 0 0
+
+.efecto:before, .efecto:after
+	content ""
+	position absolute
+	z-index -1
+	-webkit-box-shadow 0 0 20px #777
+	-moz-box-shadow 0 0 20px #777
+	box-shadow 0 0 20px #777
+	top 0
+	bottom 0
+	left 10px
+	right 10px
+	-moz-border-radius 100px / 10px
+	border-radius 100px / 10px
+
+@import "responsive.styl"

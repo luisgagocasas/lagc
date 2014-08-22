@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.carpetasptl{
+	padding:0px 20px;
+	margin:0px 0px;
+	height: 20px;
+	background:url(utilidades/folder.gif) no-repeat;
+}
+.carpetasptl a{
+	color:#92B22C;
+}
+.carpetasptl a:hover{
+	color:#999;
+}
+.archivosptl{
+	padding:0px 20px;
+	margin:0px 0px;
+	height: 20px;
+	background:url(utilidades/articulo.gif) no-repeat;
+}
+.archivosptl a{
+	color:#92B22C;
+}
+.archivosptl a:hover{
+	color:#999;
+}

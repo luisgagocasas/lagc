@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0px;
+padding:0px;
+ overflow-x: hidden;
+ background:url(imagenes/bodyfondo.jpg) repeat;
+}
+div.principal{
+	width:800px;
+	height:700px;
+	background: url(imagenes/fondo.png) repeat-x;
+	margin:auto;
+	margin-top:50px;
+	padding:0px;
+	
+	}
+div.principal1{
+	width:800px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+	                               
+		}	
+div.principal1-1{	/*menu*/
+	width:210px;
+	height:700px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	background:url(imagenes/menu.png) no-repeat;
+	position: relative;
+	left:50px;
+	}
+	div.principal1-2{
+	width:266px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+	background:url(imagenes/logo.png) no-repeat;
+	background-position:50% 50%;
+	float:left;
+	position:relative;
+	left:100px;
+	}
+	div.principal1-3{
+	width:266px;
+	height:146px;
+	padding:0px;
+	margin:0px;
+	background:url(imagenes/ceviche.png) no-repeat;
+	position:50% 50%;
+	float:left;
+	position:relative;
+	left:100px;
+	bottom:50px;
+	}
+	div.principal2{
+		width:800px;
+		height:410px;
+		padding:0px;
+		margin:0px;
+		
+	}
+	div.principal3{
+		width:800px;
+		height:144px;
+		padding:0px;
+		margin:0px;
+		position:relative;
+		left:25px;
+	
+		
+			}
+	div.principal1-1-1{	/*sub-menu*/
+	width:184px;
+	height:560px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative;
+	top:125px;
+	left:12px;
+	}
+	div.principal1-1-1 ul li{
+		width:120px;
+		height:45px;
+				border-bottom:#FFF solid;
+		line-height:45px;
+		color:#FFF;
+		font-family:"Comic Sans MS", cursive;
+		
+	}
+	div.principal1-1-1 ul li a:link{
+	color:#FFF;
+	text-decoration:none;
+	}
+		div.principal1-1-1 ul li a:visited{
+		color:#FFF;
+		text-decoration:none;
+	}
+		div.principal1-1-1 ul li a:active{
+		color:#FFF;
+		text-decoration:none;
+	}
+		div.principal1-1-1 ul li a:hover{
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+	div.principal3 p
+	{
+		text-align:center;
+				color:#FFF;
+				font-size:12px;
+				
+		}
+		div.principal2-1{/*contenido*/
+		width:540px;
+		height:400px;
+		padding:0px;
+		margin:0px;		
+		position:relative;
+		top:4px;
+		left:260px;
+		
+	
+	}
+	
+	div.fondo1
+	{
+		width:217px;
+		height:173px;
+		background:url(imagenes/fondo1.png) no-repeat;
+		position:relative;
+		left:225px;
+		top:-40px;
+		
+	}
+		div.fondo2
+	{
+		width:194px;
+		height:224px;
+		background: url(imagenes/fondo2.png) no-repeat;
+		position:relative;
+		left:525px;
+		top:-200px;
+		
+	}
+		div.fondo3
+	{
+		width:333px;
+		height:433px;
+		background: url(imagenes/fondo3.png) no-repeat;
+		position:relative;
+		left:450px;
+		top:-200px;
+		
+	}

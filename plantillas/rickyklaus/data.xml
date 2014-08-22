@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?> 
+<Banner 
+	bannerWidth=""
+	bannerHeight=""
+
+	textSize="14"
+	textColor=""
+	textAreaWidth=""
+	textLineSpacing="0"	
+	textLetterSpacing="-0.5"	
+	textMarginLeft="12"
+	textMarginBottom="5"
+	
+	transitionType="2"
+	transitionDelayTimeFixed="2" 
+	transitionDelayTimePerWord=".5"
+	transitionSpeed="8"
+	transitionBlur="no"
+	transitionRandomizeOrder="no"	
+	
+	showTimerClock="no"
+	showBackButton="no"
+	showNumberButtons="no"
+	showNumberButtonsAlways="no"
+	showNumberButtonsHorizontal="no"
+	showNumberButtonsAscending="no"
+	autoPlay="yes"
+	>
+	
+	<item image="plantillas/rickyklaus/banner1/foto_3.png"></item>
+	<item image="plantillas/rickyklaus/banner1/foto_2.png"></item>
+	<item image="plantillas/rickyklaus/banner1/foto_0.png"></item>
+	<item image="plantillas/rickyklaus/banner1/foto_4.png"></item>
+	<item image="plantillas/rickyklaus/banner1/foto_1.png"></item>
+	
+</Banner>
